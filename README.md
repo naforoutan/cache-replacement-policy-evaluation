@@ -17,6 +17,7 @@ The following cache replacement policies have been implemented and evaluated:
 *   **ETA (Estimated Time of Access) / Paper-Based Policy:** A novel policy based on the paper ["A Low-cost Predictor-based Cache Replacement Policy for Last-Level Caches"](https://doi.org/10.1145/3528414.3528433). It predicts the reuse distance of cache lines to make smarter eviction decisions.
 
 ## Project Structure
+```
 cache-replacement-policy-evaluation/
 │
 ├── champ-sim/                 # The modified ChampSim source code
@@ -26,6 +27,7 @@ cache-replacement-policy-evaluation/
 ├── results/                   # Output results from simulations (CSV, graphs, etc.)
 ├── report/                    # Project report (analysis, conclusions, etc.)
 └── README.md
+```
 
 ## Results and Analysis
 The project report (in Persian) provides a detailed analysis of the results, including:
