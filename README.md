@@ -19,12 +19,12 @@ The following cache replacement policies have been implemented and evaluated:
 ## Project Structure
 cache-replacement-policy-evaluation/
 │
-├── champ-sim/ # The modified ChampSim source code
-│ ├── replacement/ # Directory containing the custom replacement policy implementations
-│ └── ...
-├── traces/ # Directory for memory access traces (not included in repo)
-├── results/ # Output results from simulations (CSV, graphs, etc.)
-├── report/ # Project report (analysis, conclusions, etc.)
+├── champ-sim/                 # The modified ChampSim source code
+│   ├── replacement/           # Directory containing the custom replacement policy implementations
+│   └── ...
+├── traces/                    # Directory for memory access traces (not included in repo)
+├── results/                   # Output results from simulations (CSV, graphs, etc.)
+├── report/                    # Project report (analysis, conclusions, etc.)
 └── README.md
 
 ## Results and Analysis
