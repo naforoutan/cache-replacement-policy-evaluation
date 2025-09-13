@@ -14,7 +14,7 @@ The following cache replacement policies have been implemented and evaluated:
 *   **LFU (Least Frequently Used):** Evicts the block that has been accessed the least number of times.
 *   **MRU (Most Recently Used):** Evicts the block that was accessed most recently.
 *   **FIFO (First-In, First-Out):** Evicts the block that has been in the cache the longest, regardless of access patterns.
-*   **ETA (Estimated Time of Access) / Paper-Based Policy:** A novel policy based on the paper ["A Low-cost Predictor-based Cache Replacement Policy for Last-Level Caches"](https://doi.org/10.1145/3528414.3528433). It predicts the reuse distance of cache lines to make smarter eviction decisions.
+*   **ETA (Estimated Time of Access) / Paper-Based Policy:** A novel policy based on the paper ["A Low-cost Predictor-based Cache Replacement Policy for Last-Level Caches"](https://www.cs.utexas.edu/~lin/papers/hpca22.pdf). It predicts the reuse distance of cache lines to make smarter eviction decisions.
 
 ## Project Structure
 ```
