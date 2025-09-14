@@ -16,19 +16,6 @@ The following cache replacement policies have been implemented and evaluated:
 *   **FIFO (First-In, First-Out):** Evicts the block that has been in the cache the longest, regardless of access patterns.
 *   **ETA (Estimated Time of Access) / Paper-Based Policy:** A novel policy based on the paper ["A Low-cost Predictor-based Cache Replacement Policy for Last-Level Caches"](https://www.cs.utexas.edu/~lin/papers/hpca22.pdf). It predicts the reuse distance of cache lines to make smarter eviction decisions.
 
-## Project Structure
-```
-cache-replacement-policy-evaluation/
-│
-├── champ-sim/                 # The modified ChampSim source code
-│   ├── replacement/           # Directory containing the custom replacement policy implementations
-│   └── ...
-├── traces/                    # Directory for memory access traces (not included in repo)
-├── results/                   # Output results from simulations (CSV, graphs, etc.)
-├── report/                    # Project report (analysis, conclusions, etc.)
-└── README.md
-```
-
 ## Results and Analysis
 The project report (in Persian) provides a detailed analysis of the results, including:
 - Comparison of Miss Rate and Hit Rate for each policy.
